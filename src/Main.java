@@ -14,7 +14,7 @@ public class Main {
         Vladimir.hello();
         Sasha.hello();
 
-        Flower rose = new Flower("Роза обыкновенная", null, "Голандия", 35.59, 0);
+        Flower rose = new Flower("Роза обыкновенная", null, "Голандия", 35.59);
         Flower chrys = new Flower("Хризантема", null, null, 15, 5);
         Flower pion = new Flower("Пион", null, "Англия", 69.9, 1);
         Flower gyps = new Flower("Гипсофила", null, "Турция", 19.5, 10);

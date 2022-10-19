@@ -4,9 +4,9 @@ import java.util.Locale;
 
 public class Human {
     private int birthDate;
-    private String name;
+    public String name;
     private String cityOfResidence;
-    String post;
+    public String post;
 
     public Human(int age, String name, String cityOfResidence, String post) {
         this.setBirthDate(age);

@@ -4,7 +4,7 @@ public class Flower {
     private String flowerColor;
     private String country;
     private double cost;
-    int lifeSpan;
+    public int lifeSpan;
 
     public Flower(String flowerName, String flowerColor, String country, double cost, int lifeSpan) {
         this.flowerName = flowerName;
@@ -18,6 +18,9 @@ public class Flower {
         }
     }
 
+    public Flower(String flowerName, String flowerColor, String country, double cost) {
+        this(flowerName, flowerColor, country, cost, 3);
+    }
     public String getFlowerColor() {
         return flowerColor;
     }
@@ -48,7 +51,7 @@ public class Flower {
     }
 
     public void setCost(double cost) {
-        if (cost <= 0 || cost == 0) {
+        if (cost <= 0) {
             this.cost = 1;
         } else {
             this.cost = cost;
